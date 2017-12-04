@@ -1,0 +1,54 @@
+/* General */
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 400;
+}
+
+
+
+/* Prevent paragraphs from overlapping when screen is small */
+p {
+	font-size: 0.9em;
+}
+
+
+@media (min-width: 992px) {
+	p {
+		font-size: 1em;
+	}
+}
+
+
+
+/* Header */
+.text-thin {
+	font-weight: 300;
+}
+
+
+.title-super {
+	font-size: 60px;
+}
+
+
+.title-logo {
+	margin-top: 20px;
+}
+
+
+.hr-thick {
+	border: 2px solid #7d97ad;
+}
+
+
+
+/* Content */
+.text-muted {
+	color: #7d97ad;
+}
+
+
+.title-feature-work {
+	margin-top: 20px;
+}
